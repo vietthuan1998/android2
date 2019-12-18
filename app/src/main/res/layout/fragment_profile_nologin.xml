@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:weightSum="10" android:padding="5dp">
+    <RelativeLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageView
+            android:src="@drawable/background"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/frm_profile_name"
+            android:textSize="20sp"
+            android:text="dsadasdsa"
+            android:textColor="#fff"
+            android:paddingLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/avt_icon"
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/avt_icon"
+            android:src="@drawable/avt_white"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="25dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+        <Button
+            android:id="@+id/frm_profile_btnlogin"
+            android:text="Đăng nhập/ Đăng ký"
+            android:textColor="#ffff"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="25dp"
+            android:background="#00FFFFFF"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:textSize="15sp"
+            android:id="@+id/frm_profile_btnlogout"
+            android:text="Đăng xuất"
+            android:textColor="#ffff"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="25dp"
+            android:background="#00FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/frm_profile_setting"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:layout_marginBottom="5px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/avt_black"
+            android:drawablePadding="8dp"
+            android:text="  Thiết lập tài khoản"
+            android:textSize="30sp" />
+        <View
+            android:background="@color/white_greyish"
+            android:layout_width="match_parent"
+            android:layout_height="2px"/>
+
+        <TextView
+            android:id="@+id/frm_profile_mycart"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:layout_marginTop="5px"
+            android:layout_marginBottom="5px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/cart_black"
+            android:drawablePadding="8dp"
+            android:text="  Đơn hàng của tôi"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/frm_profile_support"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:layout_marginBottom="5px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/support_black"
+            android:drawablePadding="8dp"
+            android:text="  Trung tâm hỗ trợ"
+            android:textSize="30sp" />
+        <View
+            android:background="@color/white_greyish"
+            android:layout_width="match_parent"
+            android:layout_height="2px"/>
+
+        <TextView
+            android:id="@+id/frm_profile_infor"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:layout_marginTop="5px"
+            android:layout_marginBottom="5px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/info_black"
+            android:drawablePadding="8dp"
+            android:text="  Thông tin ứng dụng"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

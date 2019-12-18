@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/list_product">
+        <menu>
+            <item android:title="@string/hp"
+                android:id="@+id/nav_hp"/>
+            <item android:title="@string/dell"
+                android:id="@+id/nav_dell"/>
+            <item android:title="@string/lenovo"
+                android:id="@+id/nav_lenovo"/>
+            <item android:title="@string/asus"
+                android:id="@+id/nav_asus"/>
+            <item android:title="@string/msi"
+                android:id="@+id/nav_msi"/>
+            <item android:title="@string/laptop_caocap"
+                android:id="@+id/nav_caocap"/>
+            <item android:title="@string/laptop_gaming"
+                android:id="@+id/nav_gaming"/>
+            <item android:title="@string/laptop_workstation"
+                android:id="@+id/nav_wordstation"/>
+        </menu>
+    </item>
+</menu>

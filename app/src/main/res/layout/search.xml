@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.arlib.floatingsearchview.FloatingSearchView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/search_view"
+        app:floatingSearch_searchHint="Nhập nội dung cần t.."
+        app:floatingSearch_suggestionsListAnimDuration="250"
+        app:floatingSearch_close_search_on_keyboard_dismiss="true">
+
+    </com.arlib.floatingsearchview.FloatingSearchView>
+</LinearLayout>

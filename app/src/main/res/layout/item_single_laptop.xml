@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_single_laptop"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="7dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="16dp">
+
+    <ImageView
+        android:id="@+id/item_single_laptop_image"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/item_single_laptop_cauhinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="DELL_ALIENWARE15\\i7 8750H\\8GB onboard + 16GB DDR4\\1TB SSD\\NVIDIA Geforce 1080 8GB GDDR5\\15.6 FHD IPS"
+        android:textColor="#ffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:id="@+id/item_single_laptop_gia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="110.300.000"
+        android:textColor="#FF0"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
